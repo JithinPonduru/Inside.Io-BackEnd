@@ -1,10 +1,10 @@
-# Inside.Io 3D Model Manager  
+# Insyde.Io 3D Model Manager  
 
 A Django REST API backend for uploading, storing, and managing 3D model files. This application enables developers to integrate 3D model capabilities into their applications through a simple REST API.  
 
 ## Features  
 
-- Upload and validate 3D model files (.obj, .gltf, .glb)  
+- Upload and validate 3D model files (`.obj`, `.gltf`, `.glb`)  
 - Retrieve 3D models with download URLs  
 - RESTful API with full CRUD operations  
 - File format validation and automatic metadata extraction  
@@ -23,8 +23,8 @@ A Django REST API backend for uploading, storing, and managing 3D model files. T
 Clone the repository or download the source code:  
 
 ```bash
-git clone https://github.com/your-username/Inside.Io.git
-cd Inside.Io/BackEnd
+git clone https://github.com/your-username/Insyde.Io.git
+cd Insyde.Io/BackEnd
 ```  
 
 ### Step 2: Set Up a Virtual Environment  
@@ -61,15 +61,14 @@ Launch the application:
 python manage.py runserver
 ```  
 
-The API will be available at http://localhost:8000/api/  
-The admin interface will be at http://localhost:8000/admin/  
+The API will be available at [http://localhost:8000/api/](http://localhost:8000/api/)  
+The admin interface will be at [http://localhost:8000/admin/](http://localhost:8000/admin/)  
 
 ## API Endpoints  
 
 - `GET /api/models/` - List all 3D models  
 - `POST /api/models/` - Upload a new 3D model  
 - `GET /api/models/<id>/` - Retrieve a specific 3D model  
- 
 
 ## Project Structure  
 
@@ -79,7 +78,7 @@ BackEnd/
 ├── threeDapp/           # Django app for 3D model handling
 ├── media/               # Uploaded files storage
 │   └── models/          # 3D model files
-├── templates/           # HTML templates
+├── templates/           # HTML templates (if needed)
 └── manage.py            # Django management script
 ```  
 
@@ -89,7 +88,3 @@ BackEnd/
 - Django REST Framework  
 - Python  
 - SQLite (development) / PostgreSQL (production)  
-
-## License  
-
-MIT  
